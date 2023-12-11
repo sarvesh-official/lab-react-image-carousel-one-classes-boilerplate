@@ -1,1 +1,67 @@
 /* write your carousel css in this file */
+
+.carousel-container {
+    height: 600px;
+    width: 650px;
+    border: 1px solid black;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    object-fit: cover;
+    width: 600px;
+}
+
+.arrowDiv {
+    width: 40px;
+    position: absolute;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    height: inherit;
+    background-color: rgb(255, 255, 255);
+    /* opacity: 0.5; */
+}
+
+.leftArrow {
+    left: 0;
+}
+
+.rightArrow {
+    right: 0;
+}
+
+.arrowDiv:active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.arrowDiv:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    font-size: 55px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
